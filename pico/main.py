@@ -4,7 +4,7 @@ from time import sleep
     
 def cb(topic, msg):
     if topic == b"text":
-        print(msg)
+        print(msg.decode())
 
 def main():
     try:
