@@ -26,9 +26,6 @@ def connect_mqtt(mqtt_server, mqtt_user, mqtt_pass):
 import network
 
 
-import network
-
-
 def connect_internet(ssid, password=None):
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)

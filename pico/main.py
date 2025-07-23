@@ -9,7 +9,7 @@ def cb(topic, msg):
 def main():
     try:
         connect_internet("",password="")
-        client = connect_mqtt("", "", "!")
+        client = connect_mqtt("", "", "")
 
         client.set_callback(cb)
         client.subscribe("text")
