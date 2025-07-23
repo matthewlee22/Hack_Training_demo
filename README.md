@@ -24,6 +24,7 @@ If you have your pico with you, add the files located in the 'pico' directory to
 Then, fill out the internet and mqtt information as follows:
 
 connect_internet("(your wifi)",password="(wifi password)")
+
 client = connect_mqtt("(your URL)", "(your user)", "(your pass)")
         
 Finally, run 'main.py' on your pico.
