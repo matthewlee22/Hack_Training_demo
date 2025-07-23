@@ -1,7 +1,9 @@
 In the backend directory, create a file named '.env', and add the following:
 
 CONNECT_URL=mqtts://(your URL):(your port)
+
 MQTT_USER=(your user)
+
 MQTT_PASS=(your pass)
 
 Then, while still in the directory, make sure to run 
