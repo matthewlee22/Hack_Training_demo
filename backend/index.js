@@ -23,8 +23,9 @@ const client = MQTT.connect(process.env.CONNECT_URL, {
   rejectUnauthorized: false
 });
 
-//React -> Node
+
 io.on("connection", (socket) => {
+  // Establishing React -> Node connection
   socket.on('text', (message) => {
     console.log('Backend received message:', message);
     //Node -> MQTT
